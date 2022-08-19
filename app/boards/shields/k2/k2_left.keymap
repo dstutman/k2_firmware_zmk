@@ -16,7 +16,7 @@
         
         default_layer {
             bindings = <
-                &gresc &kp Q       &kp W &kp E &kp R       &kp T     &kp MINUS
+                &kp ESC   &kp Q       &kp W &kp E &kp R       &kp T     &kp MINUS
                 &kp TAB   &kp A    &kp S &kp D &kp F       &kp G     &kp LBKT
                 &kp LSHFT &kp Z    &kp X &kp C &kp V       &kp B
                 &kp LCTRL &kp LGUI                   &mo 1 &kp SPACE &kp BSPC
