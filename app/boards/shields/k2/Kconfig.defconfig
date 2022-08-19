@@ -1,0 +1,13 @@
+if SHIELD_K2_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "K2 Left"
+
+endif # SHIELD_K2_LEFT
+
+if SHIELD_K2_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "K2 Right"
+
+endif # SHIELD_K2_RIGHT

@@ -1,0 +1,35 @@
+
+/*
+ * Copyright (c) 2021 Dan Stutman
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/backlight.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        
+        default_layer {
+            bindings = <
+                &gresc &kp Q       &kp W &kp E &kp R       &kp T     &kp MINUS
+                &kp TAB   &kp A    &kp S &kp D &kp F       &kp G     &kp LBKT
+                &kp LSHFT &kp Z    &kp X &kp C &kp V       &kp B
+                &kp LCTRL &kp LGUI                   &mo 1 &kp SPACE &kp BSPC
+            >;
+        };
+
+        extra {
+            bindings = <
+                &bt BT_NXT &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_CLR
+                &none      &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &none
+                &kp LSHFT  &none         &none         &none         &none         &none
+                &none      &none                                     &none         &none         &none
+            >;
+        };
+    };
+};

@@ -1,0 +1,21 @@
+# Copyright (c) 2021 Dan Stutman
+# SPDX-License-Identifier: MIT
+
+if BOARD_K2
+
+config ZMK_KEYBOARD_NAME
+	default "K2"
+
+config BT_CTLR
+	default BT
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default n
+
+config ZMK_BATTERY_VOLTAGE_DIVIDER
+	default n
+
+endif # BOARD_K2
