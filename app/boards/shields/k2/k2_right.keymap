@@ -18,19 +18,19 @@
 		
 		default_layer {
 			bindings = <
-                        &kp EQUAL &kp Y &kp U &kp I    &kp O     &kp P    &kp GRAVE
-                        &kp RBKT  &kp H &kp J &kp K    &kp L     &kp SEMI &kp DQT
-                                  &kp N &kp M &kp LARW &kp COMMA &kp DOT  &kp RSHFT
-                &kp RET &kp SPACE &mo 1                          &kp C_PP &kp LALT
+                &kp EQUAL &kp Y     &kp U &kp I     &kp O   &kp P      &kp GRAVE
+                &kp RBKT  &kp H     &kp J &kp K     &kp L   &kp SEMI   &kp APOS
+                          &kp N     &kp M &kp COMMA &kp DOT &kp SLASH  &kp RSHFT
+                &kp BSPC   &kp SPACE &mo 1                   &kp K_LOCK &kp LALT
 			>;
 		};
 
 		extra {
             bindings = <
-                           &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_NXT
-				           &none      &kp N6       &kp N7        &kp N8       &kp N9       &kp N0       &none
-                                      &none        &none         &none        &none        &none        &kp RSHFT
-				&none      &none      &none                                                &none        &none
+			    &none &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &none
+                &none &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none        &none
+                      &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &kp RSHFT
+				&none &none        &none                                  &bt BT_CLR   &none
             >;
         };
 	};

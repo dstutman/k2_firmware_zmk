@@ -16,19 +16,19 @@
         
         default_layer {
             bindings = <
-                &kp ESC   &kp Q       &kp W &kp E &kp R       &kp T     &kp MINUS
-                &kp TAB   &kp A    &kp S &kp D &kp F       &kp G     &kp LBKT
-                &kp LSHFT &kp Z    &kp X &kp C &kp V       &kp B
-                &kp LCTRL &kp LGUI                   &mo 1 &kp SPACE &kp BSPC
+                &kp ESC   &kp Q    &kp W &kp E &kp R  &kp T     &kp MINUS
+                &kp TAB   &kp A    &kp S &kp D &kp F  &kp G     &kp LBKT
+                &kp LSHFT &kp Z    &kp X &kp C &kp V  &kp B
+                &kp LCTRL &kp LGUI             &mo 1  &kp SPACE &kp RET
             >;
         };
 
         extra {
             bindings = <
-                &bt BT_NXT &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_CLR
-                &none      &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &none
-                &kp LSHFT  &none         &none         &none         &none         &none
-                &none      &none                                     &none         &none         &none
+                &none     &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &none
+                &none     &kp C_PP     &kp C_PREV   &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT   &none
+                &kp LSHFT &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
+                &none     &bt BT_CLR                             &none        &none        &none
             >;
         };
     };
